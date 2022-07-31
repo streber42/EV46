@@ -1,0 +1,129 @@
+connectors:
+        X2:
+          pincount: 20
+          type: Molex
+          subtype: Female
+          pinlabels: [ Free, Cooling_Fan_PWM, Reverse_Lights_Relay, CAN_Low, T15, ECU_Relay, Throttle_Ground, Throttle_Value_1, Tip_Up, Ground, AC_Relay, T50, SAP_Relay, CAN_High, LIN_Bus, Brake, Throttle_5V, Throttle_Value_2, Tip_Down, T30]
+        X60001:
+          pincount: 9
+          type: AMP
+          hide_disconnected_pins: True
+        X60002:
+          pincount: 24
+          type: AMP
+          hide_disconnected_pins: True
+        X60003:
+          pincount: 52
+          type: AMP
+          hide_disconnected_pins: True
+        X60004:
+          pincount: 40
+          type: AMP
+          hide_disconnected_pins: True
+
+cables:
+        C1:
+                wirecount: 1
+        C2:
+                wirecount: 1
+        C3:
+                wirecount: 1
+        C4:
+                wirecount: 1
+        C5:
+                wirecount: 1
+        C6:
+                wirecount: 1
+        C7:
+                wirecount: 10
+        C8:
+                wirecount: 10
+        C9:
+                wirecount: 10
+        C10:
+                wirecount: 10
+connections:
+        -
+                - X2: [10]
+                - C1: [1]
+                - X60001: [4]
+        -
+                - X2: [20]
+                - C2: [1]
+                - X60001: [7]
+        -
+                - X2: [3]
+                - C3: [1]
+                - X60002: [8]
+        -
+                - X2: [6]
+                - C4: [1]
+                - X60002: [23]
+        -
+                - X2: [9]
+                - C5: [1]
+                - X60003: [19]
+        -
+                - X2: [19]
+                - C6: [1]
+                - X60003: [20]
+        -
+                - X2: [13]
+                - C7: [3]
+                - X60004: [3]
+        -
+                - X2: [2]
+                - C7: [4]
+                - X60004: [4]
+        -
+                - X2: [7]
+                - C7: [7]
+                - X60004: [7]
+        -
+                - X2: [8]
+                - C7: [8]
+                - X60004: [8]
+        -
+                - X2: [17]
+                - C7: [9]
+                - X60004: [9]
+        -
+                - X2: [7]
+                - C8: [2]
+                - X60004: [12]
+        -
+                - X2: [18]
+                - C8: [3]
+                - X60004: [13]
+        -
+                - X2: [17]
+                - C8: [4]
+                - X60004: [14]
+        -
+                - X2: [16]
+                - C9: [4]
+                - X60004: [24]
+        -
+                - X2: [5]
+                - C9: [6]
+                - X60004: [26]
+        -
+                - X2: [15]
+                - C9: [7]
+                - X60004: [27]
+        -
+                - X2: [11]
+                - C9: [9]
+                - X60004: [29]
+        -
+                - X2: [12]
+                - C10: [3]
+                - X60004: [33]
+        -
+                - X2: [14]
+                - C10: [6]
+                - X60004: [36]
+        -
+                - X2: [4]
+                - C10: [4]
+                - X60004: [37]

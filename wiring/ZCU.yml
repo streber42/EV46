@@ -1,0 +1,63 @@
+connectors:
+        X1: 
+          pincount: 56
+          pinlabels: [ RS232_RX, RS232_TX, GP_OUT3, GP_OUT2, PWM3_OUT, PWM2_OUT, PWM1_OUT, ANALOG2_IN, ANALOG1_IN, DAC2_OUT, DAC1_OUT, MG2 temp -, MG2 temp +, MG1 temp -, IGNITION_T15, REQ-, REQ+, CLK-, CLK+, MTH-, MTH+, HTM-, HTM+, LIN Bus, CAN3 Low, CAN3 High, CAN2 Low, CAN2 High, MG1 temp +, Oil pump PWM, GP_OUT1 (General purpose low side switch), Inverter Relay (low side switch), MAIN_CON, PRECHARGE, POT2_OUT, POT1_OUT, Trans SP, Trans SL2-, Trans SL1-, Trans PB3, Trans PB2, Trans PB1, CAN Low, CAN High, Ground, Throttle 2 Input (0-5v analog), Throttle 1 Input (0-5v analog), 5V Out, Brake light switch input, GP12V, HV_Request, Start, Reverse, Forward, Ground, 12V Supply In]
+          hide_disconnected_pins: True
+        X2:
+          pincount: 20
+          type: Molex
+          subtype: male
+        X3:
+          pincount: 8
+          type: Molex
+        X4:
+          pincount: 4
+          pinlabels: [MG1+,MG1-,MG2+,MG2-]
+          type: Molex
+        X5:
+          pincount: 1
+        F52:
+          pincount: 14
+          hide_disconnected_pins: True
+        X6:
+          pincount: 2
+
+cables:
+        C1:
+                wirecount: 20
+        C2: 
+                wirecount: 8
+        C3:
+                wirecount: 4
+        C4:
+                wirecount: 1
+        C5:
+                wirecount: 6
+        C6:
+                wirecount: 2
+
+connections:
+        -
+                - X1: [6,5,4,27,15,32,45,46,53,55,3,52,31,28,24,49,48,47,54,56]
+                - C1: [1-20]
+                - X2: [1-20]
+        -
+                - X1: [12-14,29]
+                - C3: [1-4]
+                - X4: [1-4]
+        -
+                - X1: [16-23]
+                - C2: [1-8]
+                - X3: [1-8]
+        -
+                - X1: [30]
+                - C4: [1]
+                - X5: [1]
+        -
+                - X1: [37-42]
+                - C5: [1-6]
+                - F52: [4,12,13,8,10,11]
+        -
+                - X1: [43-44]
+                - C6: [1-2]
+                - X6: [1-2]

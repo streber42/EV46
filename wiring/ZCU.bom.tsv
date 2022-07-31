@@ -1,0 +1,14 @@
+Id	Description	Qty	Unit	Designators
+1	Cable, 1 wires	0	m	C4
+2	Cable, 2 wires	0	m	C6
+3	Cable, 20 wires	0	m	C1
+4	Cable, 4 wires	0	m	C3
+5	Cable, 6 wires	0	m	C5
+6	Cable, 8 wires	0	m	C2
+7	Connector, 1 pins	1		X5
+8	Connector, 14 pins	1		F52
+9	Connector, 2 pins	1		X6
+10	Connector, 56 pins	1		X1
+11	Connector, Molex, 4 pins	1		X4
+12	Connector, Molex, 8 pins	1		X3
+13	Connector, Molex, male, 20 pins	1		X2

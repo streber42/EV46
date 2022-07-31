@@ -1,0 +1,56 @@
+1 - RS232_RX
+2 - RS232_TX
+3 - GP_OUT3
+4 - GP_OUT2
+5 - PWM3_OUT
+6 - PWM2_OUT
+7 - PWM1_OUT
+8 - ANALOG2_IN
+9 - ANALOG1_IN
+10 - DAC2_OUT
+11 - DAC1_OUT
+12 - MG2 temp -
+13 - MG2 temp +
+14 - MG1 temp -
+15 - IGNITION_T15
+16 - REQ-
+17 - REQ+
+18 - CLK-
+19 - CLK+
+20 - MTH-
+21 - MTH+
+22 - HTM-
+23 - HTM+
+24 - LIN Bus
+25 - CAN3 Low
+26 - CAN3 High
+27 - CAN2 Low
+28 - CAN2 High
+29 - MG1 temp +
+30 - Oil pump PWM
+31 - GP_OUT1 (General purpose low side switch)
+32 - Inverter Relay (low side switch)
+33 - MAIN_CON
+34 - PRECHARGE
+35 - POT2_OUT
+36 - POT1_OUT
+37 - Trans SP
+38 - Trans SL2-
+39 - Trans SL1-
+40 - Trans PB3
+41 - Trans PB2
+42 - Trans PB1
+43 - CAN Low
+44 - CAN High
+45 - Ground
+46 - Throttle 2 Input (0-5v analog)
+47 - Throttle 1 Input (0-5v analog)
+48 - 5V Out
+49 - Brake light switch input
+50 - GP12V
+51 - HV_Request
+52 - Start
+53 - Reverse
+54 - Forward
+55 - Ground
+56 - 12V Supply In

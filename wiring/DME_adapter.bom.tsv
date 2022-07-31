@@ -1,0 +1,8 @@
+Id	Description	Qty	Unit	Designators
+1	Cable, 1 wires	0	m	C1, C2, C3, C4, C5, C6
+2	Cable, 10 wires	0	m	C10, C7, C8, C9
+3	Connector, AMP, 24 pins	1		X60002
+4	Connector, AMP, 40 pins	1		X60004
+5	Connector, AMP, 52 pins	1		X60003
+6	Connector, AMP, 9 pins	1		X60001
+7	Connector, Molex, Female, 20 pins	1		X2
